@@ -8,19 +8,6 @@ Webservers-RS is a simple and efficient web server implemented in Rust. This pro
 **Static File Serving**: Serve static files from a directory.
 **Concurrency**: Handle multiple requests concurrently using Rust's async features.
 
-## Project Structure
-csharp
-Copy code
-webservers-rs/
-├── src/
-│   ├── main.rs
-├── static/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-├── Cargo.toml
-└── README.md
-
 **src/**: Contains the source code for the server.
 **static/**: Directory for static files to be served.
 **Cargo.toml**: Configuration file for Cargo, the Rust package manager.
