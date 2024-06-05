@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Threaded Web Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rust Code Wireframe Visualization</h1>
+        <div class="box" id="main-function">
+            <h2>Main Function</h2>
+            <p>Sets up TCP listener and handles incoming connections.</p>
+            <div class="arrow"></div>
+        </div>
+        <div class="box" id="handle-connection">
+            <h2>Handle Connection Function</h2>
+            <p>Processes the incoming request and sends an appropriate response.</p>
+            <div class="arrow"></div>
+        </div>
+        <div class="box" id="read-buffer">
+            <h2>Read Buffer</h2>
+            <p>Reads the incoming request into a buffer.</p>
+            <div class="arrow"></div>
+        </div>
+        <div class="box" id="check-request">
+            <h2>Check Request</h2>
+            <p>Checks if the request is a GET request for the root path.</p>
+            <div class="arrow"></div>
+        </div>
+        <div class="box" id="read-file">
+            <h2>Read File</h2>
+            <p>Attempts to read the requested file (index.html or 404.html).</p>
+            <div class="arrow"></div>
+        </div>
+        <div class="box" id="construct-response">
+            <h2>Construct Response</h2>
+            <p>Constructs the HTTP response with status line, content length, and contents.</p>
+            <div class="arrow"></div>
+        </div>
+        <div class="box" id="send-response">
+            <h2>Send Response</h2>
+            <p>Sends the constructed response back to the client.</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,14 @@
+/target/
+
+**/*.rs.bk
+
+/doc/
+
+/tests_output/
+
+Cargo.lock
+
+.*.swp
+*.swo
+*~
+.DS_Store
