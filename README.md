@@ -1,4 +1,4 @@
-# Webservers-RS: A Simple Rust Web Server
+# Single-Threaded-RS: A Simple Sigle Treaded Web Server Written in Rust
 ## Overview
 Webservers-RS is a simple and efficient web server implemented in Rust. This project is designed to demonstrate the basic principles of web server functionality, leveraging Rust's performance and safety features. Whether you're learning Rust or looking for a lightweight web server, Webservers-RS is an excellent starting point.
 
